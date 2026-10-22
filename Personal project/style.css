@@ -1,0 +1,86 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+section
+{
+    postion: relative;
+    width: 100%;
+    height: 100vh;
+    background:3576ff;
+    overflow: hidden;
+}
+section.wave
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+}
+section.wave.wave1
+{
+    animation:animate 30s linear infinite;
+
+}
+@keyframes animate
+{
+    0%
+        {
+            background-position-x: 0;
+        }
+    100%
+        {
+            background-position-x: 1000px;
+        }
+    }
+
+
+        h1 {
+            color: black;
+            font-size: clamp(48px, 8vw, 88px);
+            margin: 24px 0 40px;
+            text-align: center;
+        }
+
+        .spacing {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            padding: 0 20px 40px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .lingaguliguliguli {
+            width: 220px;
+            text-align: center;
+            font-color: black;
+        }
+
+        .lingaguliguliguli img {
+            width:200px;
+            height:200px;
+            object-fit: cover;
+            display: block;
+            box-sizing: border-box;
+            border: 3px solid black;
+            border-radius:19%;
+   
+        }
+
+        .lingaguliguliguli p {
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: verdana;
+            margin: 12px 0 0;
+            background-color: rgba(145, 132, 116, 0.8);
+            border-radius: 19px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-border: 2px solid black;
+            box-sizing: border-box;
+        }
