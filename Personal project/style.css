@@ -5,27 +5,61 @@
 }
 section
 {
-    postion: relative;
+    position: relative;
     width: 100%;
     height: 100vh;
-    background:3576ff;
+    background:#629df5;
     overflow: hidden;
 }
-section.wave
+section .wave
 {
     position: absolute;
     bottom: 0;
     left:0;
     width: 100%;
-    height: 100%;
+    height: 100px;
     background: url(wave.png);
-    background-size: 1000px 100px;
+    background-size: 1000px 100px;  
+    background-repeat: repeat-x;
 }
-section.wave.wave1
+section .wave.wave1
 {
-    animation:animate 30s linear infinite;
+    animation: animate 30s linear infinite;
+    z-index:1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom:0;
 
 }
+section .wave.wave2
+{
+    animation: animate 15s linear infinite;
+    z-index:999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom:10px;
+
+}
+section .wave.wave3
+{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom:15px;
+
+}
+section .wave.wave4
+{
+    animation: animate 25s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom:20px;
+
+}
+
+
 @keyframes animate
 {
     0%
@@ -35,52 +69,38 @@ section.wave.wave1
     100%
         {
             background-position-x: 1000px;
+        }    
+}
+@keyframes animate2
+{
+    0%
+        {
+            background-position-x: 0;
         }
-    }
-
-
-        h1 {
-            color: black;
-            font-size: clamp(48px, 8vw, 88px);
-            margin: 24px 0 40px;
-            text-align: center;
+    100%
+        {
+            background-position-x: -1000px;
+        }    
+}
+@keyframes animate3
+{
+    0%
+        {
+            background-position-x: 0;
         }
-
-        .spacing {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-            padding: 0 20px 40px;
-            flex-direction: row;
-            flex-wrap: wrap;
+    100%
+        {
+            background-position-x: 1000px;
+        }    
+}
+@keyframes animate4
+{
+    0%
+        {
+            background-position-x: 0;
         }
-
-        .lingaguliguliguli {
-            width: 220px;
-            text-align: center;
-            font-color: black;
-        }
-
-        .lingaguliguliguli img {
-            width:200px;
-            height:200px;
-            object-fit: cover;
-            display: block;
-            box-sizing: border-box;
-            border: 3px solid black;
-            border-radius:19%;
-   
-        }
-
-        .lingaguliguliguli p {
-            color: black;
-            font-size: 30px;
-            font-weight: bold;
-            font-family: verdana;
-            margin: 12px 0 0;
-            background-color: rgba(145, 132, 116, 0.8);
-            border-radius: 19px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            box-border: 2px solid black;
-            box-sizing: border-box;
-        }
+    100%
+        {
+            background-position-x: -1000px;
+        }    
+}   
