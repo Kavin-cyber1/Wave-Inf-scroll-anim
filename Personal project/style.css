@@ -33,12 +33,7 @@ section .wave.wave1
 }
 section .wave.wave2
 {
-    animation: animate 15s linear infinite;
-    z-index:999;
-    opacity: 0.5;
-    animation-delay: -5s;
-    bottom:10px;
-
+    animation: animate2 15s linear infinite;
 }
 section .wave.wave3
 {
@@ -51,7 +46,7 @@ section .wave.wave3
 }
 section .wave.wave4
 {
-    animation: animate 25s linear infinite;
+    animation: animate4 25s linear infinite;
     z-index: 997;
     opacity: 0.7;
     animation-delay: -5s;
@@ -120,7 +115,6 @@ section .wave.wave4
     width:max-content;
     will-change : transform;
     animation:scroll 12s linear infinite;
-    animation:none;
 }
 .slide-group{
     display:flex;
@@ -150,7 +144,6 @@ section .wave.wave4
     justify-content:center;
 }
 .item p{
-    top:115%;
     display:flex;
     align-items:center;
     justify-content:center;
