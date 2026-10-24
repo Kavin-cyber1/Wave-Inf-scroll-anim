@@ -37,7 +37,7 @@ section .wave.wave2
 }
 section .wave.wave3
 {
-    animation: animate 30s linear infinite;
+    animation: animate3 30s linear infinite;
     z-index: 998;
     opacity: 0.2;
     animation-delay: -2s;
@@ -114,7 +114,7 @@ section .wave.wave4
     display:flex;
     width:max-content;
     will-change : transform;
-    animation:scroll 12s linear infinite;
+    animation:scroll 20s linear infinite;
 }
 .slide-group{
     display:flex;
@@ -173,6 +173,25 @@ section .wave.wave4
 
 }
 .item:hover p{
+    item.content{
+        opacity:1;
+    }
     opacity:1;
     transition:1s;
 }
+.item-content{
+    top: 280px;
+    width:100%;
+    height:100%;
+    right:185px;
+    position:relative;
+    justify-content:center;
+    font-family:verdana;
+    font-weight:bold;
+    text-align:center;
+    color:azure;
+    font-size:20px;
+    opacity:1;
+    
+}
+
