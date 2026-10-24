@@ -110,6 +110,7 @@ section .wave.wave4
     position:absolute;
     top:40%;
     left:2%;
+    right:2%;
     transform:translateY(-50%);
     z-index:1001;
     border-radius: 30px;
