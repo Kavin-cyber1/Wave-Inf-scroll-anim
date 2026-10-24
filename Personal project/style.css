@@ -105,12 +105,11 @@ section .wave.wave4
         }    
 }
 .carousel{
-    width:90%;
+    width:96%;
     overflow:hidden;
     position:absolute;
     top:40%;
     left:2%;
-    right:2%;
     transform:translateY(-50%);
     z-index:1001;
     border-radius: 30px;
