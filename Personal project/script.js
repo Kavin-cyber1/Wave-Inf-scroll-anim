@@ -4,5 +4,10 @@ let clicks=0;
 
 button.addEventListener("click", ()=> {
     clicks= clicks+1;
-    message.textContent="clicks:" + clicks;
+    if (clicks >= 5) {
+        message.textContent = "you reached five"
+    } else {
+        message.textContent="clicks:" + clicks;
+    }
+    
 });
