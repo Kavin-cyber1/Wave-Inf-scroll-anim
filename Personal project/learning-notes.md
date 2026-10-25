@@ -30,3 +30,8 @@ Page 11 was quite wordy making it harder to understand.
 -had to check the type without changing the variable.
 3)unsure what display line means. = Ssigns the result of clicks:variable to the textContent of the websit.
 4)When clicks had a quote It showed Clicks: And it reported number and when 3 was added it didnt work
+##page 12\
+1)assigning is  = while comparing is ==.
+-we use === to ask if it is above 5 . == Would be comparing it to something else which we havent coded yet
+2)4, You reached 5 ,6 4 and 6 are because we are asking if it is 5 and only 5 so the message only pops up then.
+3)once it is >= it makes it only 4 appear after 5 it says five or more!
