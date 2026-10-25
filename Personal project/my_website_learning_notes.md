@@ -67,6 +67,6 @@ Page 11 was quite wordy making it harder to understand.
 3) it does neither
 4) using this as a example # My website learning notes
 
-## Page 5
+## page 16
 
-1. **My explanation:** Putting the picture and paragraph inside the same `div` groups them together. That group becomes one `.item`, so the image and label move and style as one unit.
+1)because the isPaused turned true the if code appeared.AndIt is Line 31 That pauses it.
