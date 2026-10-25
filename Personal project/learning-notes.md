@@ -35,3 +35,7 @@ Page 11 was quite wordy making it harder to understand.
 -we use === to ask if it is above 5 . == Would be comparing it to something else which we havent coded yet
 2)4, You reached 5 ,6 4 and 6 are because we are asking if it is 5 and only 5 so the message only pops up then.
 3)once it is >= it makes it only 4 appear after 5 it says five or more!
+#page14
+1)defining a function is naming it basically creating its meaning while calling it means using it .
+2)clicks=0; resets the counter to 0 and showCount(); is to show the change
+3)without the showCount();It would still reset but not show the change
