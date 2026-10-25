@@ -18,3 +18,15 @@ I still need help with differentiating what is the difference between = and == a
 let clicks =0;
 clicks = clicks +1;
 ``` 
+##page 11
+1.const means it cnt be assigned to different things.
+2.it means that the number wont change to clicks
+3.it changesd the starting line because the clicks = 5; which is atarting point.If the starting line is moved the result will be too.
+Page 11 was quite wordy making it harder to understand.
+##page 12
+4)5,5,4,5+prev value
+2) had to test out the message.textContent with its values changed.
+-had to read it from right to left.
+-had to check the type without changing the variable.
+3)unsure what display line means. = Ssigns the result of clicks:variable to the textContent of the websit.
+4)When clicks had a quote It showed Clicks: And it reported number and when 3 was added it didnt work
