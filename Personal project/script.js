@@ -21,3 +21,16 @@ resetButton.addEventListener("click", () =>{
     showCount();
 });
 showCount();
+const pauseButton = document.getElementById("pauseButton");
+const track = document.querySelector(".track");
+
+pauseButton.addEventListener("click",() => {
+let isPaused =!isPaused;
+if (isPaused) {
+    track.computedStyleMap.animationPlayState = "paused";
+    pauseButton.textContent = "resume cards";
+} else {
+    track.computedStyleMap.animationPlayState = "running";
+    pauseButton.textContent = "pause cards";
+}
+});
