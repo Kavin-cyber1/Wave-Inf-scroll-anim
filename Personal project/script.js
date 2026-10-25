@@ -5,7 +5,7 @@ let clicks=0;
 
 
 function showCount(){
-    if (clicks === 5) {
+    if (clicks === 10) {
         message.textContent = "you reached five"
     } else {
         message.textContent="clicks:" + clicks;
@@ -23,14 +23,17 @@ resetButton.addEventListener("click", () =>{
 showCount();
 const pauseButton = document.getElementById("pauseButton");
 const track = document.querySelector(".track");
+let isPaused = false;
 
 pauseButton.addEventListener("click",() => {
-let isPaused =!isPaused;
+ isPaused =!isPaused;
 if (isPaused) {
-    track.computedStyleMap.animationPlayState = "paused";
+    track.style.animationPlayState = "paused";
     pauseButton.textContent = "resume cards";
+   
 } else {
-    track.computedStyleMap.animationPlayState = "running";
+    track.style.animationPlayState = "running";
     pauseButton.textContent = "pause cards";
+    
 }
 });
