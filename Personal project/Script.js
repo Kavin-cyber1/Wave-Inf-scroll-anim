@@ -1,7 +1,8 @@
 const button = document.getElementById("tryButton");
 const message = document.getElementById("message");
+let clicks=0;
 
 button.addEventListener("click", ()=> {
-    message.textContent = "my first JavaScript works";
-
+    clicks= clicks+1;
+    message.textContent="clicks:" + clicks;
 });
