@@ -70,3 +70,12 @@ Page 11 was quite wordy making it harder to understand.
 ## page 16
 
 1)because the isPaused turned true the if code appeared.AndIt is Line 31 That pauses it.
+
+##page 17
+
+1)i saw that at 9 it displayed 9 at 10 it displayed you reached ten and and at 11 it went back to displaying 11.
+-Resetting requires showCount()because it wont display the reset even if it happens so the user wont know.
+
+##page 18
+
+1) idk how to get the link
