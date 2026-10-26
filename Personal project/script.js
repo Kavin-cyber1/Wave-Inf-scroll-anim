@@ -6,7 +6,7 @@ let clicks=0;
 
 function showCount(){
     if (clicks === 10) {
-        message.textContent = "you reached five"
+        message.textContent = "you reached ten"
     } else {
         message.textContent="clicks:" + clicks;
     }
