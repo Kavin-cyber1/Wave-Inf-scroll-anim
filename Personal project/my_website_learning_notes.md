@@ -79,3 +79,6 @@ Page 11 was quite wordy making it harder to understand.
 ##page 18
 
 1) idk how to get the link
+2) Tested page or local file: It works. Also changed it so there is a blue background behing the buttons rather than a white
+3) Result of count and reset:It displays number when clicked on and at 10 shows you reached 10 and when reset is clicked resets all the nuimbers back to 0
+4) Result of pause and resume:it pauses the carousel
