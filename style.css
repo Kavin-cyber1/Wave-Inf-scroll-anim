@@ -142,6 +142,7 @@ section .wave.wave4
   margin: 10px;
   background: transparent;
   border: none;
+  margin:30px;
 }
 .card{
     width:225px;
