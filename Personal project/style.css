@@ -179,5 +179,19 @@ section .wave.wave4
     opacity:1;
     transition:1s;
 }
+.Button{
+    background-color: aquamarine;
+    padding: 20px;
+    font-family: Verdana;
+    Height:250px;
+    Width:400px;
+    display:flex;
+    border-radius:20px;
+    justify-content:center;
+}
+.button:hover button{
+    transform:scale(1.1)
+}
 .item { height: 340px;}
 .item img {height : 220px;}
+
